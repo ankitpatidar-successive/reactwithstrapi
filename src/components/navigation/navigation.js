@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../App.css";
-import ProductList from "../ProductList";
 
 const Navigation = () => {
   return (
@@ -22,17 +20,6 @@ const Navigation = () => {
           </th>
           <th>
             <a href="/categories">Categories</a>
-            <select name="forma">
-              <option value="Home">
-                <a href="/home">Home</a>
-              </option>
-              <option value="Contact">
-                <a href="https://test.com/en">Contact</a>
-              </option>
-              <option value="Sitemap">
-                <a href="sitemap.php">Sitemap</a>
-              </option>
-            </select>
           </th>
           <th>
             <a href="/navigation">Navigation</a>
