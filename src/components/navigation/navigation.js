@@ -21,9 +21,6 @@ const Navigation = () => {
           <th>
             <a href="/categories">Categories</a>
           </th>
-          <th>
-            <a href="/navigation">Navigation</a>
-          </th>
         </tr>
       </table>
     </div>
